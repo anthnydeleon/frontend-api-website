@@ -10,11 +10,14 @@ export default function Footer() {
       <div>
         <h4>Website criado por Anthony Deleon</h4>
         <div>
-          <Link to="/" className="redes">
+          <Link
+            to="https://www.linkedin.com/in/anthnydeleon/"
+            className="redes"
+          >
             <FaLinkedin size={25} />
             LinkedIn
           </Link>
-          <Link to="/" className="redes">
+          <Link to="https://github.com/anthnydeleon" className="redes">
             <FaGithub size={25} />
             LinkedIn
           </Link>
